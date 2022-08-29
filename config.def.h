@@ -12,12 +12,10 @@ static const char dmenufont[]       = "IBM Plex Mono:size=12";
 /* static const char col_gray3[]       = "#bbbbbb"; */
 /* static const char col_gray4[]       = "#eeeeee"; */
 /* static const char col_cyan[]        = "#005577"; */
-/* static const char col_urgborder[]   = "#ff0000"; */
 /* static const char *colors[][3]      = { */
 /* 	/\*               fg         bg         border   *\/ */
 /* 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 }, */
 /* 	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  }, */
-/* 	[SchemeUrg]  = { col_gray4, col_cyan,  col_urgborder  }, */
 /* }; */
 
 #include "/home/rob/.cache/wal/colors-wal-dwm.h"
@@ -33,7 +31,8 @@ static const Rule rules[] = {
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
     { "mpv",      NULL,       NULL,       0,            1,           -1 },
-    { "Emacs",    NULL,       NULL,       1 << 2,            0,           -1 },
+    { "Emacs",    NULL,       NULL,       1 << 2,       0,           -1 },
+	{ "KotatogramDesktop",         NULL,       NULL,       1 << 6,       0,           -1 },
 };
 
 /* layout(s) */
